@@ -1,0 +1,27 @@
+basic 
+//ig
+
+character
+/\a/ will match all a in the text
+/\w/ will match all words in the text
+/\d/ will match all number in the text
+/./ will match everything
+
+group
+/(color)/ will match the exact words
+
+quantifier
+/a{2}/ will match the exact 2 a
+/a+/ will match one or multiple occurance
+/a?/ will match zero or 1 occurance
+/a*/ will match zero or multiple occurance
+
+third bracket
+/[abc]/ will match any one of abc
+/[a-z]/ will match any alphabet of a to zero
+/[^a-g]/ will not match any alphabet from a to g
+
+
+special character
+/^my/ will first word named my
+/yes.$/ will match last word named yes.
